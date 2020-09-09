@@ -1,0 +1,100 @@
+.row-header {
+    margin: 0px auto;
+    padding: 0px 0px; }
+  
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px; }
+  
+.footer {
+    background-color: #D1C4E9;
+    margin: 0px auto;
+    padding: 20px 0px; }
+  
+.jumbotron {
+    margin: 0px auto;
+    padding: 70px 30px;
+    background: #9575CD;
+    color: floralwhite; }
+  
+address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f; }
+  
+body {
+    margin-left: 30px;
+    padding: 20px 0px 0px 0px;
+    z-index: 0;
+    text-align: center; }
+
+h1 {
+    padding: 40px 0px 0px 0px;
+    z-index: 0;
+    color: blue; }
+
+img {
+    border-radius: 40%;
+}
+
+.btn1 {
+    width: 70%;
+    height: 90px;
+    color: black;
+    padding: 10px 20px;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    font: bold 18px sans-serif;
+    background: white;
+    -webkit-transition: background 2s; /* For Safari 3.0 to 6.0 */
+    transition: background 2s; /* For modern browsers */
+}
+
+.btn2 {
+    width: 70%;
+    height: 90px;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    font: bold 18px sans-serif;
+    background: black;
+    -webkit-transition: background 2s; /* For Safari 3.0 to 6.0 */
+    transition: background 2s; /* For modern browsers */
+}
+
+.btn1:hover {
+    color:black;
+    background: cyan;
+}
+
+.btn2:hover {
+    color:black;
+    background: cyan;
+}
+
+#t01 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-dialog2 {
+    margin-left: 30px;
+    padding: 10px 20px;
+    align-content: relative;
+}
+
+.modal-header1 {
+    background-color: #512DA8;
+    color: floralwhite; }
+    .modal-header .close {
+      color: floralwhite; }
+  
+.modal-body1 {
+    background-color: #D1C4E9; }
+  
