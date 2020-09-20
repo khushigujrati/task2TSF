@@ -1,100 +1,154 @@
 .row-header {
-    margin: 0px auto;
-    padding: 0px 0px; }
-  
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+
 .row-content {
-    margin: 0px auto;
-    padding: 50px 0px;
-    border-bottom: 1px ridge;
-    min-height: 400px; }
-  
+  margin: 0px auto;
+  padding: 50px 0px;
+  min-height: 400px;
+}
+
 .footer {
-    background-color: #D1C4E9;
-    margin: 0px auto;
-    padding: 20px 0px; }
-  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: burlywood;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+
 .jumbotron {
-    margin: 0px auto;
-    padding: 70px 30px;
-    background: #9575CD;
-    color: floralwhite; }
-  
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #9575cd;
+  color: floralwhite;
+}
+
 address {
-    font-size: 80%;
-    margin: 0px;
-    color: #0f0f0f; }
-  
-body {
-    margin-left: 30px;
-    padding: 20px 0px 0px 0px;
-    z-index: 0;
-    text-align: center; }
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+
+body,
+html {
+  margin-left: 30px;
+  padding: 20px 0px 0px 0px;
+  z-index: 0;
+  text-align: center;
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu {
+  font-size: 20px;
+  letter-spacing: 3px;
+}
 
 h1 {
-    padding: 40px 0px 0px 0px;
-    z-index: 0;
-    color: blue; }
+  padding: 40px 0px 0px 0px;
+  z-index: 0;
+  font-size: 40px;
+  color: rgb(247, 23, 23);
+}
 
 img {
-    border-radius: 40%;
+  border-radius: 40%;
 }
 
 .btn1 {
-    width: 70%;
-    height: 90px;
-    color: black;
-    padding: 10px 20px;
-    display: inline-block;
-    border: none;
-    text-decoration: none;
-    font: bold 18px sans-serif;
-    background: white;
-    -webkit-transition: background 2s; /* For Safari 3.0 to 6.0 */
-    transition: background 2s; /* For modern browsers */
+  width: 70%;
+  height: 90px;
+  color: black;
+  padding: 10px 20px;
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  font: bold 18px sans-serif;
+  background: white;
+  -webkit-transition: background 2s; /* For Safari 3.0 to 6.0 */
+  transition: background 2s; /* For modern browsers */
 }
 
 .btn2 {
-    width: 70%;
-    height: 90px;
-    color: white;
-    padding: 10px 20px;
-    display: inline-block;
-    border: none;
-    text-decoration: none;
-    font: bold 18px sans-serif;
-    background: black;
-    -webkit-transition: background 2s; /* For Safari 3.0 to 6.0 */
-    transition: background 2s; /* For modern browsers */
+  width: 70%;
+  height: 90px;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  font: bold 18px sans-serif;
+  background: black;
+  -webkit-transition: background 2s; /* For Safari 3.0 to 6.0 */
+  transition: background 2s; /* For modern browsers */
 }
 
 .btn1:hover {
-    color:black;
-    background: cyan;
+  color: black;
+  background: cyan;
 }
 
 .btn2:hover {
-    color:black;
-    background: cyan;
+  color: black;
+  background: cyan;
 }
 
-#t01 {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+#t01,
+#t02 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+.head1 {
+  width: 650px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: coral;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
 .modal-dialog2 {
-    margin-left: 30px;
-    padding: 10px 20px;
-    align-content: relative;
+  margin-left: 30px;
+  padding: 10px 20px;
+  align-content: relative;
 }
 
 .modal-header1 {
-    background-color: #512DA8;
-    color: floralwhite; }
-    .modal-header .close {
-      color: floralwhite; }
-  
+  background-color: #512da8;
+  color: floralwhite;
+}
+.modal-header .close {
+  color: floralwhite;
+}
+
 .modal-body1 {
-    background-color: #D1C4E9; }
-  
+  background-color: #d1c4e9;
+}
+
+#ul1 {
+  background: #ff9999;
+  padding: 20px;
+}
+
+#ul1 li {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+}
