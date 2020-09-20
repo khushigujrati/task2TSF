@@ -17,9 +17,9 @@ function uploadData() {
   var info = database.ref("creditInfo");
   var infoUser = {
     credit: 100,
-    email: "mukulshukla@gmail.com",
-    name: "mukul",
-    uid: 4,
+    email: "suvidhi@gmail.com",
+    name: "Suvidhi",
+    uid: 10,
   };
   info.push(infoUser);
 }
@@ -103,6 +103,7 @@ function LoadData() {
                   keys
                 );
               }
+              window.alert("Transaction Successful!");
             });
           });
         }
@@ -149,6 +150,7 @@ function transaction(sender, rec, money, details, keys) {
     userRef.push(transData);
   }
 }
+
 function TxDetails() {
   var TxData = firebase.database();
   var Txref = TxData.ref("TransactionDetails");
