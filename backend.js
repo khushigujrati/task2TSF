@@ -80,6 +80,7 @@ function LoadData() {
               var recList = document.createElement("option");
 
               if (email == details[ks].email) continue;
+
               recList.innerHTML = details[ks].email;
 
               rec.appendChild(recList);
@@ -103,7 +104,6 @@ function LoadData() {
                   keys
                 );
               }
-              window.alert("Transaction Successful!");
             });
           });
         }
@@ -148,6 +148,7 @@ function transaction(sender, rec, money, details, keys) {
       amount: money,
     };
     userRef.push(transData);
+    window.alert("Transaction Successful!");
   }
 }
 
