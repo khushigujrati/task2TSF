@@ -5,6 +5,7 @@ This repository contains solution of my task completed during my internship.
 # Software Used:
 - HTML
 - CSS
+- Javascript
 - Firebase
 
 # Project Screenshot
